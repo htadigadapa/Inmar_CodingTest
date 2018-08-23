@@ -1,0 +1,15 @@
+driver <-- required database driver
+db_url <-- location/database url
+db_name <-- name of the database
+
+Initialize the Connection object using driver,db_url,db_name
+
+#query to get only the employee names
+query <-- SELECT NAME FROM employee
+Execute query using Connection object
+
+
+#query to get all employee details including ID,NAME,ADDRESS
+query <-- SELECT * FROM employee
+Execute query using Connection object
+ 
